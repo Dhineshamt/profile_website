@@ -6,20 +6,27 @@ import { Skills } from "./components/Skills";
 import { ExperienceAndEducation } from "./components/ExperienceAndEducation";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
+import { Menu } from "./components/Menu";
+import { Certification } from "./components/Certification";
 
 //To Do:  Learn Hooks in 16.4 or 16.8. Learn functional component vs class component.
 export const Routing = () => {
     return (
+        
         <BrowserRouter>
+            {/* <Menu /> */}
             <Routes>
-                <Route exact path="/" element={<Home />}></Route>
-                <Route exact path="/home" element={<Home />}></Route>
-                <Route exact path="/skills" element={<Skills />}></Route>
-                <Route exact path="/experience" element={<ExperienceAndEducation />}></Route>
-                <Route exact path="/projects" element={<Projects />}></Route>
-                <Route exact path="/contact" element={<Contact />}></Route>
-                <Route element={<ErrorPage />}></Route>
+                <Route path="/" element={<Home />}>
+                <Route path="home" element={<Home />}></Route>
+                <Route path="skills" element={<Skills />}></Route>
+                <Route path='certification' element={<Certification />}></Route>
+                <Route path="experience" element={<ExperienceAndEducation />}></Route>
+                <Route path="projects" element={<Projects />}></Route>
+                <Route path="contact" element={<Contact />}></Route>
+                </Route>
+                <Route path="*" element={<ErrorPage />}></Route>
             </Routes>
         </BrowserRouter>
+        
     )
 }
