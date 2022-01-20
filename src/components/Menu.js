@@ -26,7 +26,6 @@ export default class Menu extends Component {
             
                 <div className="topnav">
                     {/* <BrowserRouter> */}
-                    <nav>
                         <Link to='/home'>Home</Link>
 
                         <Link to='/skills'>Skills</Link>
@@ -35,7 +34,6 @@ export default class Menu extends Component {
                         <Link to='/projects'>Projects</Link>
                         <Link to='/Contact'>Contact</Link>
                         {/* <Link to='/Contact' onClick={this.forceUpdate}>Contact</Link> */}
-                        </nav>
                     {/* </BrowserRouter> */}
                 </div>
             
