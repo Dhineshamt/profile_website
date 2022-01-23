@@ -12,7 +12,7 @@ export class ErrorPage extends Component {
         return (
             <>
                 <div>Error page</div>
-                <Link to="/home">Go to Home</Link>
+                <Link to="/">Go to Home</Link>
             </>
         )
     }
