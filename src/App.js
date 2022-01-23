@@ -3,13 +3,13 @@ import './App.css';
 import {Header} from './components/Header';
 import { Routing } from './Routing';
 import { Footer } from './components/Footer';
+import { BrowserRouter } from 'react-router-dom';
+import { Main } from './Main';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className="page-margin container">
       <Routing />
-      <Footer />
     </div>
   );
 }
