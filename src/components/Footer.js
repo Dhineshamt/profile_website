@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMobileAlt, faAt } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export class Footer extends React.Component {
     render() {
@@ -6,16 +9,22 @@ export class Footer extends React.Component {
             <>
                 <div className="footer">
                     <div>
-                        <div className="footer-info-title">Phone</div>
-                        <div>9944991706</div>
+                        <span className="fa-icon">
+                            <FontAwesomeIcon icon={faMobileAlt} size="" />
+                        </span>
+                        <span className="m-left">9944991706</span>
                     </div>
                     <div>
-                        <div className="footer-info-title">Email</div>
-                        <div>dhineshamt@gmail.com</div>
+                        <span className="fa-icon">
+                            <FontAwesomeIcon icon={faAt} />
+                        </span>
+                        <span className="m-left">dhineshamt@gmail.com</span>
                     </div>
                     <div>
-                        <div className="footer-info-title">Follow Me</div>
-                        <div>dhinesh@linkedin</div>
+                        <span className="fa-icon">
+                            <FontAwesomeIcon icon={faLinkedin} />
+                        </span>
+                        <span className="m-left">dhinesh@linkedin</span>
                     </div>
                     <div>
                         <button className="download-button">Download Profile</button>
