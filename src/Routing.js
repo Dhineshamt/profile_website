@@ -13,21 +13,14 @@ import { Main } from "./Main";
 //To Do:  Learn Hooks in 16.4 or 16.8. Learn functional component vs class component.
 export const Routing = () => {
     return (
-
-        <BrowserRouter>
-            {/* <Menu /> */}
             <Routes>
-                <Route path="/" element={<Main />}>
-                    <Route path="home" element={<Home />}></Route>
-                    <Route path="skills" element={<Skills />}></Route>
-                    <Route path='certification' element={<Certification />}></Route>
-                    <Route path="experience" element={<ExperienceAndEducation />}></Route>
-                    <Route path="projects" element={<Projects />}></Route>
-                    <Route path="contact" element={<Contact />}></Route>
-                    <Route path="*" element={<ErrorPage />}></Route>
-                </Route>
+                <Route path="/" element={<Home />}/>
+                <Route path="skills" element={<Skills />}/>
+                <Route path='certification' element={<Certification />}/>
+                <Route path="experience" element={<ExperienceAndEducation />}/>
+                <Route path="projects" element={<Projects />}/>
+                <Route path="contact" element={<Contact />}/>
+                <Route path="*" element={<ErrorPage />}/>              
             </Routes>
-        </BrowserRouter>
-
     )
 }

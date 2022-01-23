@@ -9,7 +9,9 @@ import { Main } from './Main';
 function App() {
   return (
     <div className="page-margin container">
+      <Header/>
       <Routing />
+      <Footer/>
     </div>
   );
 }
