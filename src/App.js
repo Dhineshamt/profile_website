@@ -10,7 +10,9 @@ function App() {
   return (
     <div className="page-margin container">
       <Header/>
-      <Routing />
+      <div className='page-size'>
+        <Routing /> 
+      </div>
       <Footer/>
     </div>
   );
