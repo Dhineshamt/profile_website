@@ -105,3 +105,30 @@ Nav bar design - start
 
 
 /*** Home Page Design End */
+
+
+/*** Footer Design ***/
+.footer-info-title {
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.download-button {
+ border: none;
+ outline: none;
+ text-align: center;
+ font-size: 15px;
+ padding: 10px 22px;
+ background-color: #1194eb ;
+ color: white;
+ cursor: pointer;
+ width: auto;
+ height: auto;
+ border-radius: 30px;
+}
+
+.download-button:hover {
+  background: rgb(61, 63, 66);
+}
+
+/*** Footer design end ***/
