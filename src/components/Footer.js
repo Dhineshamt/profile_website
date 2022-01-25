@@ -3,10 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMobileAlt, faAt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-export class Footer extends React.Component {
-    render() {
-        return (
-            <>
+export const Footer = () => {
+    return (
+        <>
                 <div className="footer">
                     <div>
                         <span className="fa-icon">
@@ -31,6 +30,5 @@ export class Footer extends React.Component {
                     </div>
                 </div>
             </>
-        )
-    }
+    )
 }
