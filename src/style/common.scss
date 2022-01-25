@@ -1,0 +1,206 @@
+/**
+Global styles
+*/
+body{
+    /* background: rgba(82, 210, 241, 0.3); */
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    font-family: $global-font;
+    min-height: 100vh;
+  }
+  
+  .page-size{
+    display: flex;
+    min-height: 70vh;
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.6));
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom:15px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+  
+  .container {
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  .primary-text {
+    font-size: $primary-font-size;
+    font-weight: bold;
+    color: black;
+  }
+  
+  
+  .secondary-text {
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+    font-style: italic;
+  }
+  
+  .m-left {
+    margin: 7px;  
+  }
+  
+  .page-margin {
+    padding: 10px 15px;
+  }
+  
+  
+  
+  /**
+  Nav bar design - start
+  */
+  
+  .menu {
+    float: right;
+  }
+  
+  .nav {
+    overflow: hidden;
+  }
+  
+  .nav a {
+    float: left;
+    color: #300b0b;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;  
+    font-size: 16px;
+    border-right: rgb(1, 199, 34) 1px solid;
+  }
+  
+  .nav a:last-child {
+    border-right: none;
+  }
+  
+  .nav a:hover {
+    color: #008b3f;
+  }
+  
+  .nav a.active {
+    color: #008b3f;
+  }
+  /* Nav bar end*/
+  /*** 
+   Header Page Design  - Start
+  ***/
+  .header-container{
+    margin: 10px 0 15px 0;
+  }
+  
+  .designation{
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+    font-style: italic;
+    margin-left: 12px;
+  }
+  
+  
+  /*** Header Page Design End */
+  
+  
+  /***  Home Page Design  - Start ***/
+  
+  .home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+  }
+  
+  .profile-img{
+    max-width: 60%;
+  }
+  
+  .profile-quote{
+    margin-left: 5%; 
+    font-size: 22px;
+    /* align-self: center; */
+  }
+  
+  .profile-pic{
+    margin: 10% 7% 5% 0;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: static;
+    flex-shrink: 0;
+  }
+  
+  
+  .fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  /*** Home Page Design End */
+  
+  
+  /*** Footer Design ***/
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 13px;  
+  }
+  
+  .footer-info-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+  
+  .download-button {
+   border: none;
+   outline: none;
+   text-align: center;
+   font-size: 15px;
+   padding: 10px 22px;
+   background-color: #1194eb ;
+   color: white;
+   cursor: pointer;
+   width: auto;
+   height: auto;
+   border-radius: 30px;
+  }
+  
+  .download-button:hover {
+    background: rgb(197, 139, 14);
+  }
+  
+  .fa-icon{
+    font-size: 20px;
+    color: #005085;
+  }
+  
+  /*** Footer design end ***/
