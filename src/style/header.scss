@@ -1,0 +1,36 @@
+.menu {
+  float: right;
+}
+
+.nav {
+  overflow: hidden;
+  a {
+    float: left;
+    color: #300b0b;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
+    font-size: $menu-font-size;
+    border-right: rgb(1, 199, 34) 1px solid;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    &:hover, &.active {
+      color: #008b3f;
+    }
+  }
+}
+
+.header-container {
+  margin: 10px 0 15px 0;
+}
+
+.designation {
+  font-size: $secondar-font-size;
+  font-weight: normal;
+  color: black;
+  font-style: italic;
+  margin-left: 12px;
+}
