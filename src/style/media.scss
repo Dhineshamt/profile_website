@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+    .circle-icon {
+        display: none;
+    }
+
+    .primary-text {
+        font-size: 34px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: normal;
+        text-align: center;
+    }
+
+    .profile-img {
+        max-width: 100%;
+    }
+
+    .profile-pic {
+        width: 280px;
+        height: 280px;
+        margin: 10% 0 0 0;
+    }
+
+    
+
+
+}

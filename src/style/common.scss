@@ -7,6 +7,15 @@ body{
     font-family: $global-font;
     min-height: 100vh;
   }
+
+  .page-margin {
+    padding: 10px 15px;
+  }
+
+  .container {
+    max-width: 100%;
+    height: 100%;
+  }
   
   .page-size{
     display: flex;
@@ -18,15 +27,18 @@ body{
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   }
   
-  .container {
-    max-width: 100%;
-    height: 100%;
-  }
+
   
   .primary-text {
     font-size: $primary-font-size;
     font-weight: bold;
     color: black;
+    // @media screen and (max-width: 600px) {
+    //   font-size: 60px;
+    //   svg {
+    //     display: none;
+    //   }
+    // }
   }
   
   
@@ -35,13 +47,11 @@ body{
     font-weight: normal;
     color: black;
     font-style: italic;
+   
   }
   
   .m-left {
     margin: 7px;  
   }
   
-  .page-margin {
-    padding: 10px 15px;
-  }
   
