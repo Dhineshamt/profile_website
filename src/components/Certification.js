@@ -1,62 +1,24 @@
+import CertificationContainer from './CertificationContainer'
+
 export const Certification = () => {
-    return(
+    return (
         <>
-        <div>Certification</div>
-        <div>
-            <p>            
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-            </p>
-            <p>
+            <div className='grid-container'>
+                <div className="cert-img"><img className="cert-image" src={require('../images/AWS.png')}></img></div>
+                <div className="cert-title">AWS Certified Solutions Associate</div>
+                <div className="cert-desc">Description</div>
+                <div className="cert-date">Certified Year: 2021</div>
+            </div>
 
-             making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of 
-            </p>
-             
-            <p>            
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-            </p>
-            <p>
+            <div className='grid-container'>
+                <div className="cert-img"><img className="cert-image" src={require('../images/Java.png')}></img></div>
+                <div className="cert-title">Oracle Certified Associate Developer</div>
+                <div className="cert-desc">Description</div>
+                <div className="cert-date">Certified Year: 2020</div>
+            </div>
 
-             making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of 
-            </p>
-            <p>            
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-            </p>
-            <p>
+            <CertificationContainer title="AWS Certified Solutions Associate" year="2021" desc="AWS" image-name="AWS"/>
 
-             making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of 
-            </p>
-            <p>            
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-            </p>
-            <p>
-
-             making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of 
-            </p>
-            <p>            
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-            </p>
-            <p>
-
-             making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of 
-            </p>
-            <p>            
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-            </p>
-            <p>
-
-             making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of 
-            </p>
-            <p>            
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-            </p>
-            <p>
-
-             making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of 
-            </p>
-            
-            <p>injected humour, or non-characteristic words etc.
-            </p>
-        </div>
         </>
     )
 }

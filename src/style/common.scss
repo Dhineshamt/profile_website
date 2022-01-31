@@ -18,7 +18,9 @@ body{
   }
   
   .page-size{
-    display: flex;
+    display: block;
+    position: relative;
+    // top: 36px;
     min-height: 70vh;
     background: linear-gradient(to right bottom,$page-color1,$page-color2);
     border-radius: 20px;

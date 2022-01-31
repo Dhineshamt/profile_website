@@ -1,5 +1,5 @@
 import './style/index.scss';
-import {Header} from './components/Header';
+import Header from './components/Header';
 import { Routing } from './Routing';
 import { Footer } from './components/Footer';
 
