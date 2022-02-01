@@ -1,0 +1,28 @@
+.skills-container {
+    display: flex;
+    flex-direction: row;
+}
+
+container-width {
+    width: 50%;
+}
+
+.skill-table {
+  display: table;         
+  width: 100%;         
+  background-color: #eee;         
+  border: 1px solid #666666;         
+  border-spacing: 5px; 
+}
+
+.skills-table-row {
+    display: table-row;
+    width: 100%;
+    clear: both;
+  }
+  .skills-table-col {
+    float: left; /* fix for  buggy browsers */
+    display: table-column;         
+    width: 45%;         
+    background-color: #ccc;  
+  }
