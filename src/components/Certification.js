@@ -1,23 +1,28 @@
-import CertificationContainer from './CertificationContainer'
+import CertificationContainer from './CertificationContainer';
+import javaImg from '../images/Java.png';
+import AWSImg from '../images/AWS.png';
 
 export const Certification = () => {
-    const awsObject = {
+    const certObject = [{
         title: 'AWS Certified Solutions Architect Associate',
         year: 2021,
         desc: "AWS",
-        imgName: 'AWS'
-    }
-
-    const javaObject = {
+        logo: AWSImg
+    },
+    {
         title: 'Oracle Certified Java Associate Developer',
         year: 2020,
         desc: "Java",
-        imgName: 'Java'
+        logo: javaImg
     }
+    ]
+
     return (
-        <>
-            <CertificationContainer {...awsObject} />
-            <CertificationContainer {...javaObject}/>
+        <>{
+            certObject.map((data, key) => {
+                return <CertificationContainer {...data} />
+            })
+        }
         </>
     )
 }
