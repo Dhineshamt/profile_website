@@ -1,28 +1,41 @@
-.skills-container {
-    display: flex;
-    flex-direction: row;
+#resp-table-caption {
+   text-align: center;
+  width: 90%;
+  font-size: 25px;
+  font-weight: lighter;
 }
 
-container-width {
-    width: 50%;
+#resp-table {
+  width: 100%;
+  display: table;
+  width: 80%;
+  border: red;
+  margin-top: 5%;
 }
 
-.skill-table {
-  display: table;         
-  width: 100%;         
-  background-color: #eee;         
-  border: 1px solid #666666;         
-  border-spacing: 5px; 
+#resp-table-header {
+  display: table-header-group;
+  background-color: gray;
+  font-weight: bold;
+  font-size: 25px;
 }
 
-.skills-table-row {
-    display: table-row;
-    width: 100%;
-    clear: both;
-  }
-  .skills-table-col {
-    float: left; /* fix for  buggy browsers */
-    display: table-column;         
-    width: 45%;         
-    background-color: #ccc;  
-  }
+#resp-table-body {
+  display: table-row-group;
+  border: red;
+}
+
+.resp-table-row {
+  display: table-row;
+}
+
+.table-body-cell {
+  display: table-cell;
+  padding-left: 14%;
+  padding-bottom: 1%;
+  width: 40%;
+}
+
+.text-bar-distance {
+  margin-bottom: -10px;
+}

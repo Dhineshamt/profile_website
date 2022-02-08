@@ -32,10 +32,9 @@
     .nav {
         display: none;
         left: 0px;
-    top: 50px;
-    width: 100%;
+        top: 50px;
+        width: 100%;
     }
-
 
     .icon {
         display: inline;
@@ -60,23 +59,33 @@
     .cert-desc {
         display: none;
     }
-    
+
     .grid-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    // grid-template-areas:     
-    //   'image'
-    //   'description'
-    //   'date';
-    // grid-gap: 25px;
-    // background: linear-gradient(45deg, #c6bce7, #9f5c5c00);
-    // padding: 10px;
-    // margin: 5% 5% 0 5%;
-    // // grid-template-columns: 18% 42%;
-    // grid-template-rows: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        // grid-template-areas:
+        //   'image'
+        //   'description'
+        //   'date';
+        // grid-gap: 25px;
+        // background: linear-gradient(45deg, #c6bce7, #9f5c5c00);
+        // padding: 10px;
+        // margin: 5% 5% 0 5%;
+        // // grid-template-columns: 18% 42%;
+        // grid-template-rows: 1;
     }
 
-    
+    .skills {
+        display: flex;
+        flex-direction: column;
+        padding: 6%;
+        margin: 0 0 0 7%;
+        width: 100%;
+    }
+
+    .text-bar-distance {
+        margin-bottom: 2%;
+    }
 }
