@@ -1,6 +1,6 @@
 import CertificationContainer from './CertificationContainer';
-import javaImg from '../images/Java.png';
-import AWSImg from '../images/AWS.png';
+import javaImg from '../../images/Java.png';
+import AWSImg from '../../images/AWS.png';
 
 export const Certification = () => {
     const certObject = [{

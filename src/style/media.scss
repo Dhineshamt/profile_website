@@ -60,7 +60,7 @@
         display: none;
     }
 
-    .grid-container {
+    .cert-grid-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -87,5 +87,13 @@
 
     .text-bar-distance {
         margin-bottom: 2%;
+    }
+
+    .experience {
+        display: flex;
+        flex-direction: column;
+        padding: 8%;
+        margin: 0 0 0 7%;
+        width: 68%;
     }
 }

@@ -34,7 +34,6 @@ export default class Menu extends Component {
           <NavLink to='/skills'>Skills</NavLink>
           <NavLink to='/certification'>Certification</NavLink>
           <NavLink to='/experience'>Experience and Education</NavLink>
-          <NavLink to='/projects'>Projects</NavLink>
           <NavLink to='/Contact'>Contact</NavLink>
 
         </div>

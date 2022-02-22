@@ -1,4 +1,3 @@
-import SkillDetail from "./SkillDetail";
 import { Line, Circle } from 'rc-progress';
 
 const SkillRow = (props) => {

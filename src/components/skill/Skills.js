@@ -1,6 +1,4 @@
-import { Line, Circle } from 'rc-progress';
 import { Fragment } from 'react';
-import SkillDetail from './SkillDetail';
 import SkillRow from './SkillRow';
 
 export const Skills = () => {
@@ -9,7 +7,7 @@ export const Skills = () => {
         [{ skill: 'Java', percentage: 50 }, { skill: 'React', percentage: 55 }]];
     return (
         <Fragment>
-            <div id='resp-table-caption'>gsdfgsdfgsdfgsdfgsdfgsdfgsdfgsdfgsdfg Header</div>
+            <div id='resp-table-caption'>Key Skills</div>
             <div id='resp-table' >
                 <div id='resp-table-body'>
                     {

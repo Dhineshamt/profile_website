@@ -27,17 +27,16 @@
     grid-area: date;
 }
 
-.grid-container {
+.cert-grid-container {
     background-color: darkturquoise;
     box-shadow: 6px 6px #8b8888;
     border-radius: 15px;
     display: grid;
     grid-template-areas:
-        "image title "
+        "image title"
         "image description"
         "image date";
     grid-gap: 25px;
-    // background: linear-gradient(45deg, #c6bce7, #9f5c5c00);
     padding: 10px;
     margin: 5% 5% 0 5%;
     grid-template-columns: 18% 42%;
