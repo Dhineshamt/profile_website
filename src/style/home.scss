@@ -1,0 +1,63 @@
+$min-opacity: 0;
+$max-opacity: 1;
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-img{
+    max-width: 60%;
+  }
+  
+  .profile-quote{
+    margin-left: 5%; 
+    font-size: $quote-font-size;
+  }
+  
+  .profile-pic{
+    margin: 10% 7% 5% 0;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: static;
+    flex-shrink: 0;
+  }
+  
+  
+  .fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:$min-opacity;}
+    100% {opacity:$max-opacity;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:$min-opacity;}
+    100% {opacity:$max-opacity;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:$min-opacity;}
+    100% {opacity:$max-opacity;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:$min-opacity;}
+    100% {opacity:$max-opacity;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:$min-opacity;}
+    100% {opacity:$max-opacity;}
+  }
+  

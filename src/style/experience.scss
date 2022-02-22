@@ -1,0 +1,46 @@
+.exp-image {
+    grid-area: image;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 16px;
+    padding: 10%;
+}
+
+.exp-company {
+    grid-area: company;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.exp-role {
+    grid-area: role;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.exp-desc {
+    grid-area: desc;
+}
+
+.exp-grid-container {
+    background-color: darkturquoise;
+    box-shadow: 6px 6px #8b8888;
+    border-radius: 15px;
+    display: grid;
+    grid-template-areas:
+        "image company"
+        "image role";
+        
+    grid-gap: 30px;
+    // padding: 10px;
+    margin: auto;
+    grid-template-columns: 33% 50%;
+    grid-template-rows: 1;
+    width: 36%;
+    
+}
+
+
+.line {
+    text-align: center;
+}

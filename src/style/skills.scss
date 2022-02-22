@@ -1,0 +1,41 @@
+#resp-table-caption {
+   text-align: center;
+  width: 90%;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#resp-table {
+  width: 100%;
+  display: table;
+  width: 80%;
+  border: red;
+  margin-top: 5%;
+}
+
+#resp-table-header {
+  display: table-header-group;
+  background-color: gray;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#resp-table-body {
+  display: table-row-group;
+  border: red;
+}
+
+.resp-table-row {
+  display: table-row;
+}
+
+.table-body-cell {
+  display: table-cell;
+  padding-left: 14%;
+  padding-bottom: 1%;
+  width: 40%;
+}
+
+.text-bar-distance {
+  margin-bottom: -10px;
+}

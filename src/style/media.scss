@@ -1,0 +1,102 @@
+@media screen and (max-width: 600px) {
+    .circle-icon {
+        display: none;
+    }
+
+    .primary-text {
+        font-size: 34px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: normal;
+        text-align: center;
+    }
+
+    .profile-img {
+        max-width: 100%;
+    }
+
+    .profile-pic {
+        width: 280px;
+        height: 280px;
+        margin: 10% 0 0 0;
+    }
+
+    .nav {
+        display: none;
+        left: 0px;
+        top: 50px;
+        width: 100%;
+    }
+
+    .icon {
+        display: inline;
+    }
+
+    .nav.expand-menu {
+        display: block;
+        position: absolute;
+    }
+
+    .nav.expand-menu a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .nav.expand-menu .icon {
+        float: right;
+        display: block;
+    }
+
+    .nav.collapse-menu {
+        display: none;
+    }
+    .cert-desc {
+        display: none;
+    }
+
+    .cert-grid-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        // grid-template-areas:
+        //   'image'
+        //   'description'
+        //   'date';
+        // grid-gap: 25px;
+        // background: linear-gradient(45deg, #c6bce7, #9f5c5c00);
+        // padding: 10px;
+        // margin: 5% 5% 0 5%;
+        // // grid-template-columns: 18% 42%;
+        // grid-template-rows: 1;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        padding: 6%;
+        margin: 0 0 0 7%;
+        width: 100%;
+    }
+
+    .text-bar-distance {
+        margin-bottom: 2%;
+    }
+
+    .experience {
+        display: flex;
+        flex-direction: column;
+        padding: 8%;
+        margin: 0 0 0 7%;
+        width: 68%;
+    }
+}

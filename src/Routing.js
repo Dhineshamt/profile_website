@@ -1,14 +1,11 @@
-import React, { Component } from "react";
-import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
+import React from "react";
+import { Route, Routes } from 'react-router-dom';
 import { Home } from "./components/Home";
 import { ErrorPage } from "./components/ErrorPage";
-import { Skills } from "./components/Skills";
-import { ExperienceAndEducation } from "./components/ExperienceAndEducation";
-import { Projects } from "./components/Projects";
+import { Skills } from "./components/skill/Skills";
+import { ExperienceAndEducation } from "./components/experience-and-education/ExperienceAndEducation";
 import { Contact } from "./components/Contact";
-import { Menu } from "./components/Menu";
-import { Certification } from "./components/Certification";
-import { Main } from "./Main";
+import { Certification } from "./components/certification/Certification";
 
 //To Do:  Learn Hooks in 16.4 or 16.8. Learn functional component vs class component.
 export const Routing = () => {
@@ -18,7 +15,6 @@ export const Routing = () => {
                 <Route path="skills" element={<Skills />}/>
                 <Route path='certification' element={<Certification />}/>
                 <Route path="experience" element={<ExperienceAndEducation />}/>
-                <Route path="projects" element={<Projects />}/>
                 <Route path="contact" element={<Contact />}/>
                 <Route path="*" element={<ErrorPage />}/>              
             </Routes>

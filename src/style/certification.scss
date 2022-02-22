@@ -1,0 +1,44 @@
+.cert-container {
+    background: rgb(162, 173, 192);
+    display: inline;
+    position: absolute;
+    left: 125px;
+    top: 100px;
+}
+
+.cert-image {
+    max-width: 45%;
+    padding: 10px;
+}
+
+.cert-img {
+    grid-area: image;
+}
+
+.cert-title {
+    grid-area: title;
+}
+
+.cert-desc {
+    grid-area: description;
+}
+
+.cert-date {
+    grid-area: date;
+}
+
+.cert-grid-container {
+    background-color: darkturquoise;
+    box-shadow: 6px 6px #8b8888;
+    border-radius: 15px;
+    display: grid;
+    grid-template-areas:
+        "image title"
+        "image description"
+        "image date";
+    grid-gap: 25px;
+    padding: 10px;
+    margin: 5% 5% 0 5%;
+    grid-template-columns: 18% 42%;
+    grid-template-rows: 1;
+}
