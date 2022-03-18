@@ -5,6 +5,7 @@
 
     .primary-text {
         font-size: 34px;
+        margin: 0px !important;
     }
 
     .footer {
@@ -30,54 +31,95 @@
     }
 
     .nav {
-        display: none;
+        display: block;
+        float: none;
         left: 0px;
         top: 50px;
         width: 100%;
+        
+        // .icon {
+        //     position: absolute;
+        //     display: block;
+        //     float: right;
+        //     right: -12px;
+        //     top: 0px;
+        // }
+
+        // a {
+        //     display: none;
+        //     border-right: 0px;
+        // }
+
+
+        // .expand-menu {
+        //     // display: block;
+        //     // position: absolute;
+        //     position: relative;
+        //     .icon {
+        //         position: absolute;
+        //         right: -12px;
+        //         top: 0px;
+        //     }
+
+        //     a:not(:first-child) {
+        //         text-align: center;
+        //         border-bottom: rgb(1, 199, 34) 1px solid;
+        //     }
+
+        //     a {
+        //         float: none;
+        //         display: block;
+        //         border-right: 0px;
+        //     }
+        // }
     }
 
-    .icon {
-        display: inline;
-    }
-
-    .nav.expand-menu {
-        display: block;
+    .nav .icon {
         position: absolute;
+        display: block;
+        float: right;
+        right: -12px;
+        top: 0px;
+    }
+
+    .nav .expand-menu {
+        position: relative;
+    }
+
+    .nav.expand-menu .icon {
+        position: absolute;
+        right: -12px;
+        top: 0px;
+    }
+
+    .nav.expand-menu a:not(:first-child) {
+        text-align: center;
+        border-bottom: rgb(1, 199, 34) 1px solid;
+        
     }
 
     .nav.expand-menu a {
         float: none;
         display: block;
-        text-align: center;
+        border-right: 0px;
     }
 
-    .nav.expand-menu .icon {
-        float: right;
-        display: block;
-    }
-
-    .nav.collapse-menu {
+    .nav a {
         display: none;
+        border-right: 0px;
     }
+
     .cert-desc {
         display: none;
     }
+
+    
 
     .cert-grid-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        // grid-template-areas:
-        //   'image'
-        //   'description'
-        //   'date';
-        // grid-gap: 25px;
-        // background: linear-gradient(45deg, #c6bce7, #9f5c5c00);
-        // padding: 10px;
-        // margin: 5% 5% 0 5%;
-        // // grid-template-columns: 18% 42%;
-        // grid-template-rows: 1;
     }
 
     .skills {
