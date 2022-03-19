@@ -3,8 +3,8 @@ import SkillRow from './SkillRow';
 
 export const Skills = () => {
     const skills = [
-        [{ skill: 'Javascript', percentage: 5 }, { skill: 'Reacr', percentage: 10 }],
-        [{ skill: 'Java', percentage: 50 }, { skill: 'React', percentage: 55 }]];
+        [{ skill: 'Javascript', percentage: 70 }, { skill: 'React', percentage: 70 }],
+        [{ skill: 'Java', percentage: 50 }, { skill: 'CSS', percentage: 60 }]];
     return (
         <Fragment>
             <div id='resp-table-caption'>Key Skills</div>
