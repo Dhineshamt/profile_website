@@ -9,9 +9,6 @@ export const Home = () => {
                 <FontAwesomeIcon icon={faQuoteLeft} />
                 <span className="m-left ">
                          As an enthusiastic and creative technologist with hands-on skills in a wide range of software, tools, and programming languages, I am well positioned to leverage my abilities and qualifications to thrive as Front-end Developer.
-                    <div>
-                        Over the past 9 years, as a Front-end Developer, I have designed, developed, and launched customized, highly responsive websites and e-commerce solutions using advanced technologies. In addition, I have consistently met client expectations and project milestones while working effectively in deadline-driven environments.
-                    </div>
                 </span>
                 <FontAwesomeIcon icon={faQuoteRight} />
             </div>
