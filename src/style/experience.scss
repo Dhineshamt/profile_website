@@ -1,9 +1,11 @@
 .exp-image {
     grid-area: image;
     text-align: center;
-    background-color: blueviolet;
+    background: linear-gradient(45deg, #3f5a7a, #aea3c1);
     border-radius: 16px;
     padding: 10%;
+    color: powderblue;
+    font-weight: bold;
 }
 
 .exp-company {
