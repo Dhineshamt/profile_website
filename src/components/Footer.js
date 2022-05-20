@@ -27,7 +27,7 @@ export const Footer = () => {
                 </div>
                 <div  className="download-button-placement">
                     {/* <button className="download-button">Download Profile</button> */}
-                    <a className="download-button" href="https://bit.ly/resume-dhinesh" >Download Profile</a>
+                    <a className="download-button" href="https://dhinesh-resume.s3.ap-south-1.amazonaws.com/Dhinesh+-+Lead+Software+Engineer.pdf" >Download Profile</a>
                 </div>
             </div>
         </>

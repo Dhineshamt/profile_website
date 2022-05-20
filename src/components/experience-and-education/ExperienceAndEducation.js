@@ -3,8 +3,8 @@ import ExperienceAndEducationContainer from "./ExperienceAndEducationContainer"
 
 export const ExperienceAndEducation = () => {
     let experience = [
-        { 'year': 2021, 'company': 'Fidelity', 'role': 'Lead Softtware engineer' },
-        { 'year': 2020, 'company': 'Fidelity', 'role': 'Softtware engineer' },]
+        { 'year': 'Oct 2015 - Present', 'company': 'Fidelity Investments - Chennai', 'role': 'Lead Software engineer' },
+        { 'year': 'Aug 2011 - Oct 2015', 'company': 'Aon Hewitt - Chennai', 'role': 'Functional System Analyst' }]
     return (
         <Fragment>
             {

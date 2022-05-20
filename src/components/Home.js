@@ -8,7 +8,7 @@ export const Home = () => {
             <div className="profile-quote profile-img">
                 <FontAwesomeIcon icon={faQuoteLeft} />
                 <span className="m-left ">
-                         As an enthusiastic and creative technologist with hands-on skills in a wide range of software, tools, and programming languages, I am well positioned to leverage my abilities and qualifications to thrive as Front-end Developer.
+                As an enthusiastic and creative technologist with hands-on skills in a wide range of software technologies, tools, and programming languages such as Javascript, ReactJS, NodeJS, NestJS, and AWS, I am well positioned to leverage my abilities and qualifications to make the best software applications.
                 </span>
                 <FontAwesomeIcon icon={faQuoteRight} />
             </div>

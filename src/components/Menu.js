@@ -31,7 +31,8 @@ export default class Menu extends Component {
           <NavLink to='/' >Home</NavLink>
           <NavLink to='/skills'>Skills</NavLink>
           <NavLink to='/certification'>Certification</NavLink>
-          <NavLink to='/experience'>Experience and Education</NavLink>
+          <NavLink to='/experience'>Experience</NavLink>
+          <NavLink to='/education'>Education</NavLink>
         </span>
 
       
